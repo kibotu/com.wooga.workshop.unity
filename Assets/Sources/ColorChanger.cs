@@ -19,10 +19,10 @@ public class ColorChanger : MonoBehaviour {
 	}
 
 	public void OnMouseDown() {
-		gameObject.GetComponentInChildren<Renderer>().material.color = Color;
+		renderer.material.color = Color;
 	}
 
 	public void OnMouseUp() {
-		gameObject.GetComponentInChildren<Renderer>().material.color = defaultColor;
+		renderer.material.color = defaultColor;
 	}
 }

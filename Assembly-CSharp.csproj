@@ -46,6 +46,29 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Extensions\TexturePacker\TPCore\Extended\TPAnimationEx.cs" />
+     <Compile Include="Assets\Extensions\TexturePacker\TPCore\Extended\TPMeshAnimationEx.cs" />
+     <Compile Include="Assets\Extensions\TexturePacker\TPCore\Extended\TPMeshSpriteAnimationEx.cs" />
+     <Compile Include="Assets\Extensions\TexturePacker\TPCore\Extended\TPMeshTextureEx.cs" />
+     <Compile Include="Assets\Extensions\TexturePacker\TPCore\Extended\TPMeshTextureNoHelperEx.cs" />
+     <Compile Include="Assets\Extensions\TexturePacker\TPCore\Extended\TPSkinnedMeshTextureEx.cs" />
+     <Compile Include="Assets\Extensions\TexturePacker\TPCore\Extended\TPSpriteAnimationEx.cs" />
+     <Compile Include="Assets\Extensions\TexturePacker\TPCore\Extended\TPSpriteEx.cs" />
+     <Compile Include="Assets\Extensions\TexturePacker\TPCore\Extended\TPSpriteTextureEx.cs" />
+     <Compile Include="Assets\Extensions\TexturePacker\TPCore\Extended\TPStaticSpriteEx.cs" />
+     <Compile Include="Assets\Extensions\TexturePacker\TPCore\Helpers\TPAtlasesData.cs" />
+     <Compile Include="Assets\Extensions\TexturePacker\TPCore\Helpers\TPHelper.cs" />
+     <Compile Include="Assets\Extensions\TexturePacker\TPCore\Templates\TPFlags.cs" />
+     <Compile Include="Assets\Extensions\TexturePacker\Tutorial\Scripts\AnimationApiTest.cs" />
+     <Compile Include="Assets\Extensions\TexturePacker\Tutorial\Scripts\AtlasGUIAnimationExample.cs" />
+     <Compile Include="Assets\Extensions\TexturePacker\Tutorial\Scripts\AtlasGUIExample.cs" />
+     <Compile Include="Assets\Extensions\TexturePacker\Tutorial\Scripts\Atlases.cs" />
+     <Compile Include="Assets\Extensions\TexturePacker\Tutorial\Scripts\MyAtlasController.cs" />
+     <Compile Include="Assets\Extensions\TexturePacker\Tutorial\Scripts\MyFireAnimation.cs" />
+     <Compile Include="Assets\Extensions\TexturePacker\Tutorial\Scripts\MyMeshTexture.cs" />
+     <Compile Include="Assets\Extensions\TexturePacker\Tutorial\Scripts\MyRotation.cs" />
+     <Compile Include="Assets\Extensions\TexturePacker\Tutorial\Scripts\MyTeslaAnimation.cs" />
+     <Compile Include="Assets\Extensions\TexturePacker\Tutorial\Scripts\MyTextures.cs" />
      <Compile Include="Assets\PlayMaker\Actions\ActivateGameObject.cs" />
      <Compile Include="Assets\PlayMaker\Actions\AddAnimationClip.cs" />
      <Compile Include="Assets\PlayMaker\Actions\AddComponent.cs" />
@@ -548,9 +571,14 @@
      <Compile Include="Assets\PlayMaker\Actions\iTween\iTweenShakeScale.cs" />
      <Compile Include="Assets\PlayMaker\Actions\iTween\iTweenStop.cs" />
      <Compile Include="Assets\PlayMaker\Include\iTweenFSMEvents.cs" />
+     <Compile Include="Assets\Sources\CameraController.cs" />
      <Compile Include="Assets\Sources\ColorChanger.cs" />
+     <Compile Include="Assets\Sources\DrawDebugRays.cs" />
+     <Compile Include="Assets\Sources\FlappyController.cs" />
      <Compile Include="Assets\Sources\Mover.cs" />
+     <Compile Include="Assets\Sources\ObstacleSpawner.cs" />
      <Compile Include="Assets\Sources\TouchToMouseConverter.cs" />
+     <Compile Include="Assets\Sources\Utiliy.cs" />
      <Compile Include="Assets\iTween\iTween.cs" />
      <None Include="Assets\Standard Assets\Projectors\Guidelines.txt" />
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Particle Shaders\Mobile Multiply Culled.shader" />
@@ -562,15 +590,19 @@
      <None Include="Assets\Standard Assets\Tessellation Shaders\BumpedSpecularSmooth.shader" />
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Miscellaneous Shaders\Mobile Detail.shader" />
      <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
+     <None Include="Assets\Art\Fonts\bmfont1.fnt" />
      <None Include="Assets\Plugins\Detonator\Resources\Detonator\Textures\HeatDistort.shader" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-BasicOutline.shader" />
+     <None Include="Assets\Extensions\TexturePacker\Tutorial\Resources\example_data.txt" />
      <None Include="Assets\Standard Assets\Projectors\Sources\Shaders\Projector Light.shader" />
      <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
+     <None Include="Assets\Extensions\TexturePacker\Tutorial\Resources\TutorialAtlas_data.txt" />
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap Reflective.shader" />
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Particle Shaders\Mobile Particles Additive Culled.shader" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-LightedOutline.shader" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Lighted.shader" />
+     <None Include="Assets\Art\Fonts\SciFi Font - Normal.txt" />
      <None Include="Assets\iTween\ReadMe!\ReadMe!.txt" />
      <None Include="Assets\PlayMaker\Resources\PlayMakerAssemblies.txt" />
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Vertex Colored Shaders\Mobile Vertex Colored.shader" />
@@ -578,6 +610,9 @@
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap AlphaTest.shader" />
      <None Include="Assets\Standard Assets\Tessellation Shaders\BumpedSpecularDisplacement.shader" />
      <None Include="Assets\PlayMaker\Versions\readme.txt" />
+ <Reference Include="Assets\Extensions\TexturePacker\Lib\TexturePacker">
+ <HintPath>Assets\Extensions\TexturePacker\Lib\TexturePacker.dll</HintPath>
+ </Reference>
  <Reference Include="Assets\PlayMaker\PlayMaker">
  <HintPath>Assets\PlayMaker\PlayMaker.dll</HintPath>
  </Reference>
